@@ -2,13 +2,23 @@
     box-sizing: border-box;
   }
 
-#wrapper{
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+li {
+    display: inline;
+}
 
+#wrapper {
     width: 50%;
     margin: auto;
 }
-.nav{
-    display: block;    
+
+.nav {
+    float: left;    
 }
 
 #splash
