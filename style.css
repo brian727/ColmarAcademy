@@ -1,24 +1,28 @@
-* {
-    box-sizing: border-box;
-  }
+
+
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-  }
+    padding: auto;
+    display: inline-block;
+}
   
 li {
-    display: inline;
+    display: inline-flex;
+    margin: 24px;
+    float: right;
 }
 
-#wrapper {
-    width: 50%;
-    margin: auto;
+nav {    
+ 
+    text-align: center;
+    float: right;        
 }
+
+#wrapper { }
 
     
-}
 
 #splash
 #campus
